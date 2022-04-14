@@ -1,3 +1,7 @@
+// to run query funcs
+// uncomment functions and 
+// do: node query.js 
+
 const db = require("./db")
 const Employee = require("./models/employee")
 
@@ -94,7 +98,6 @@ const run = async() => {
     // await deleteEmployee()
     // await findAll()
     // await firstLastNamesList()
-
     process.exit()
 };
 run()
