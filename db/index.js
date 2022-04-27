@@ -16,7 +16,7 @@ to run nodemon do this:
 */
 
 const mongoose = require("mongoose");
-mongoose.connect(`mongodb+srv://m001-student:m001-mongodb-basics@sandbox.al2fi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, {
+mongoose.connect(`YOUR DATABASE LINK`, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
 })
